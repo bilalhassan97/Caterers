@@ -1,0 +1,81 @@
+
+
+#full-body > nav{
+    /*main nav bar*/
+    background-color: #969696;
+}
+
+.link-button{
+  border: none;
+}
+
+#cart-button  img{
+  height: 32px;
+  width: auto;
+}
+
+#badge {
+    background-color: #6394F8;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+
+}
+#search-div{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 100px;
+}
+
+
+body{
+    background-color: white;
+}
+.carousel-inner img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.offer-img-size{
+  position: relative;
+  height: 95%;
+  width: 95%;
+}
+
+
+
+footer {
+    background-color: #969696;
+}
+
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+
+
+ }
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) and (max-width:767px) {
+  #cart {
+    position: fixed;
+    right:1%;
+    top:1%;
+    z-index:100;
+  }
+
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    
+
+ }
+ 

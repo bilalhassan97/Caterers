@@ -1,0 +1,31 @@
+/* 
+#full-body{
+    background-image: url(img/blue-ballon.png) ;
+    background-size: 10%;
+    background-repeat: space;
+} */
+
+.free-space{
+    height: 50px;
+}
+
+#our-history{
+    background-color:#2491ff;
+    margin: 3% 0%;
+    padding: 5%;
+    transform: rotate(-3deg)
+}
+
+#our-motivation{
+    margin: 3% 0%;
+    background-color:#52d8ff;
+    padding: 5%;
+    transform: rotate(5deg)
+
+}
+#our-goal{
+    margin: 3% 0%;
+    background-color:#aefffe;
+    padding: 5%;
+    transform: rotate(-3deg)
+}

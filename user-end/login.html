@@ -1,0 +1,61 @@
+<html>
+
+<head>
+  <title> User Login </title>
+  <link rel="stylesheet" href="style-login.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+        $.urlParam = function (name) {
+          var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+          return results[1] || 0;
+        }
+        if($.urlParam("not-sign-up")=='1'){
+          alert("name or password does not match");
+        }
+
+    });
+  </script>
+
+</head>
+
+<body>
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <h2 class="active"> Sign In </h2>
+      <h2 class="inactive underlineHover"> <a href="sign-up.html">Sign Up</a> </h2>
+
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="img/admin-icon.svg" id="icon" alt="admin Icon" />
+      </div>
+
+      <!-- Login Form -->
+      <form action='user-login-validate.php' method="post">
+        <input type="text" id="login" class="fadeIn second" name="first_name" placeholder="First-Name e.g Muhammad" autofocus required>
+        <input type="text" id="login" class="fadeIn third" name="last_name" placeholder="Last-Name e.g Tiwana" autofocus required>
+        <input type="password" id="password" class="fadeIn fourth" name="user_pass" placeholder="password" required>
+        <input type="submit" class="fadeIn fifth" value="Log In">
+      </form>
+      <div class="fadeIn sixth">
+        <form action="index.html">
+          <input type="submit" name="home-page" value="Home-Page">
+        </form>
+
+      </div>
+
+      <!-- Remind Passowrd -->
+
+
+    </div>
+  </div>
+</body>
+
+<footer>
+  <!--
+      admin icon aurthor: https://www.flaticon.com/packs/login-4
+    -->
+</footer>
+<html>
